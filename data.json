@@ -1,0 +1,81 @@
+{
+    "websites": [
+        {
+            "author": "solobat",
+            "host": "zhuanlan.zhihu.com",
+            "icon": "https://static.zhihu.com/static/favicon.ico",
+            "navs": "nav a",
+            "outlineScope": ".RichText",
+            "paths": [],
+            "title": "知乎专栏"
+        },
+        {
+            "author": "solobat",
+            "host": "sspai.com",
+            "icon": "https://cdn.sspai.com/sspai/assets/img/favicon/icon.ico",
+            "navs": "nav a",
+            "outlineScope": ".article-content",
+            "paths": [
+                {
+                    "title": "首页",
+                    "urlPattern": "/"
+                },
+                {
+                    "title": "个人主页",
+                    "urlPattern": "/user/784469/posts"
+                }
+            ],
+            "title": "少数派"
+        },
+        {
+            "author": "solobat",
+            "host": "juejin.im",
+            "icon": "https://gold-cdn.xitu.io/favicons/v2/favicon.ico",
+            "navs": "nav a",
+            "outlineScope": ".article-content",
+            "paths": [
+                {
+                    "title": "首页",
+                    "urlPattern": "/"
+                }
+            ],
+            "title": "掘金"
+        },
+        {
+            "author": "solobat",
+            "host": "www.neat-reader.cn",
+            "icon": "http://www.neat-reader.cn/favicon.ico",
+            "navs": "nav a",
+            "outlineScope": ".book-catalog-list span.text",
+            "paths": [],
+            "title": "Neat-Reader"
+        },
+        {
+            "author": "solobat",
+            "host": "inbox.google.com",
+            "icon": "https://ssl.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/ic_product_inbox_16dp_r2_2x.png",
+            "navs": "nav ul li span[title]",
+            "outlineScope": "",
+            "paths": [],
+            "title": "Gmail"
+        },
+        {
+            "author": "solobat",
+            "host": "www.yinwang.org",
+            "icon": "http://www.yinwang.org/images/Yc.jpg",
+            "navs": "",
+            "outlineScope": ".inner",
+            "paths": [],
+            "title": "垠神博客"
+        },
+        {
+            "author": "solobat",
+            "host": "eggjs.org",
+            "icon": "https://eggjs.org/images/favicon.png",
+            "navs": "ul.nav-item a,.menu-link",
+            "outlineScope": ".markdown-body",
+            "paths": [],
+            "title": "eggjs"
+        }
+    ]
+}
