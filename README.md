@@ -15,7 +15,7 @@ Add the configuration of the website to the data.json file
 ### website data structure
 > Please remove the comments
 
-```json
+```javascript
 {
     "author": "solobat", // required
     "version": 1, // required
