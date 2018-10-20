@@ -124,6 +124,51 @@
                 "user": "solobat"
             },
             "title": "Github"
+        },
+        {
+            "author": "solobat",
+            "version": 1,
+            "host": "www.zhihu.com",
+            "icon": "https://static.zhihu.com/static/favicon.ico",
+            "navs": "header .AppHeader-inner a",
+            "outlineScope": ".markdown-body,.RichContent",
+            "paths": [
+                { "title": "首页", "urlPattern": "/" },
+                { "title": "退出", "urlPattern": "/logout"},
+                { "title": "发现", "urlPattern": "/explore" },
+                { "title": "通知", "urlPattern": "/notifications" },
+                { "title": "话题", "urlPattern": "/topic" },
+                { "title": "话题广场", "urlPattern": "/topics" },
+                { "title": "Live", "urlPattern": "/lives" },
+                { "title": "圆桌", "urlPattern": "/roundtable" },
+                { "title": "付费咨询", "urlPattern": "/zhi" },
+                { "title": "收藏", "urlPattern": "/collections" },
+                { "title": "我的邀请", "urlPattern": "/question/invited" },
+                { "title": "私信", "urlPattern": "/inbox" },
+                { "title": "书店", "urlPattern": "/pub" },
+                { "title": "设置", "urlPattern": "/settings" },
+                { "title": "帐号和密码", "urlPattern": "/settings/account" },
+                { "title": "消息和邮件", "urlPattern": "/settings/notification" },
+                { "title": "屏蔽", "urlPattern": "/settings/filter" },
+                { "title": "我关注的问题", "urlPattern": "/question/following"},
+                { "title": "我的主页", "urlPattern": "/people/{{urltoken}}/" }, 
+                { "title": "我的回答", "urlPattern": "/people/{{urltoken}}/answers" },
+                { "title": "我的提问", "urlPattern": "/people/{{urltoken}}/asks" },
+                { "title": "我的文章", "urlPattern": "/people/{{urltoken}}/posts" },
+                { "title": "我的专栏", "urlPattern": "/people/{{urltoken}}/columns" },
+                { "title": "我的想法", "urlPattern": "/people/{{urltoken}}/pins" },
+                { "title": "我的收藏", "urlPattern": "/people/{{urltoken}}/collections" },
+                { "title": "我关注的人", "urlPattern": "/people/{{urltoken}}/following" },
+                { "title": "关注我的人", "urlPattern": "/people/{{urltoken}}/followers" },
+                { "title": "我关注的专栏", "urlPattern": "/people/{{urltoken}}/following/columns" },
+                { "title": "我关注的话题", "urlPattern": "/people/{{urltoken}}/following/topics" },
+                { "title": "我关注的问题", "urlPattern": "/people/{{urltoken}}/following/questions" },
+                { "title": "我关注的收藏", "urlPattern": "/people/{{urltoken}}/following/collections" }
+            ],
+            "vars": {
+                "urltoken": "woodpea"
+            },
+            "title": "知乎"
         }
     ]
 }
