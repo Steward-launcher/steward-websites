@@ -83,6 +83,47 @@
             "outlineScope": ".markdown-body",
             "paths": [],
             "title": "eggjs"
+        },
+        {
+            "author": "solobat",
+            "version": 1,
+            "host": "github.com",
+            "icon": "https://assets-cdn.github.com/favicon.ico",
+            "navs": "header ul a",
+            "outlineScope": ".markdown-body,.gollum-markdown-content",
+            "paths": [
+                { "title": "github", "urlPattern": "/" },
+                { "title": "logout", "urlPattern": "/logout" },
+                { "title": "profile", "urlPattern": "/{{user}}" },
+                { "title": "repositories", "urlPattern": "/{{user}}/?tab=repositories" },
+                { "title": "stars", "urlPattern": "/{{user}}/?tab=stars" },
+                { "title": "followers", "urlPattern": "/{{user}}/?tab=followers" },
+                { "title": "following", "urlPattern": "/{{user}}/?tab=following" },
+                { "title": "notifications", "urlPattern": "/notifications" },
+                { "title": "Pull Requests", "urlPattern": "/pulls" },
+                { "title": "Issues", "urlPattern": "/issues" },
+                { "title": "Marketplace", "urlPattern": "/marketplace" },
+                { "title": "Explore", "urlPattern": "/explore" },
+                { "title": "Trending daily", "urlPattern": "/trending"},
+                { "title": "Trending weekly", "urlPattern": "/trending?since=weekly"},
+                { "title": "Trending monthly", "urlPattern": "/trending?since=monthly"},
+                { "title": "Watching", "urlPattern": "/watching" },
+                { "title": "new repository", "urlPattern": "/new" },
+                { "title": "Settings", "urlPattern": "/settings" },
+                { "title": "Account", "urlPattern": "/settings/admin" },
+                { "title": "Emails", "urlPattern": "/settings/emails" },
+                { "title": "Notifications", "urlPattern": "/settings/notifications" },
+                { "title": "Billing", "urlPattern": "/settings/billing" },
+                { "title": "SSH keys", "urlPattern": "/settings/keys" },
+                { "title": "Security", "urlPattern": "/settings/security" },
+                { "title": "Blocked Users", "urlPattern": "/settings/blocked_users" },
+                { "title": "Applications", "urlPattern": "/settings/installations" },
+                { "title": "Developer settings", "urlPattern": "/settings/developers" }
+            ],
+            "vars": {
+                "user": "solobat"
+            },
+            "title": "Github"
         }
     ]
 }
