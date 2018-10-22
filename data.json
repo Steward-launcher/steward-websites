@@ -12,22 +12,20 @@
         },
         {
             "author": "solobat",
-            "version": 1,
+            "version": 2,
             "host": "sspai.com",
             "icon": "https://cdn.sspai.com/sspai/assets/img/favicon/icon.ico",
             "navs": "nav a",
             "outlineScope": ".article-content",
             "paths": [
-                {
-                    "title": "首页",
-                    "urlPattern": "/"
-                },
-                {
-                    "title": "个人主页",
-                    "urlPattern": "/user/784469/posts"
-                }
+                { "title": "首页", "urlPattern": "/" },
+                { "title": "个人主页", "urlPattern": "/user/784469/posts" }
             ],
-            "title": "少数派"
+            "title": "少数派",
+            "anchors": [
+                { "selector": ".comment-form", "title": "写评论" },
+                { "selector": ".comment-box h3", "title": "评论列表" }
+            ]
         },
         {
             "author": "solobat",
@@ -37,10 +35,7 @@
             "navs": "nav a",
             "outlineScope": ".article-content",
             "paths": [
-                {
-                    "title": "首页",
-                    "urlPattern": "/"
-                }
+                { "title": "首页", "urlPattern": "/" }
             ],
             "title": "掘金"
         },
@@ -169,6 +164,20 @@
                 "urltoken": "woodpea"
             },
             "title": "知乎"
+        },
+        {
+            "anchors": [],
+            "author": "solobat",
+            "disabled": false,
+            "host": "baike.baidu.com",
+            "icon": "https://www.baidu.com/img/baidu.svg",
+            "id": "9303aa49-f44d-61bf-5353-72dfdca3b8f8",
+            "isDefault": false,
+            "navs": "nav a,.nav a,.header-nav a,.topbar a,#topnav a,.nav-wrapper a,.topnav a",
+            "outlineScope": ".main-content",
+            "paths": [],
+            "title": "百度百科",
+            "version": 1
         }
     ]
 }
