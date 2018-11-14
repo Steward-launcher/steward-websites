@@ -178,6 +178,87 @@
             "paths": [],
             "title": "百度百科",
             "version": 1
+        },
+        {
+            "created": 1542183260105,
+            "updated": 1542183260105,
+            "anchors": [
+                {
+                    "title": "赞赏支持",
+                    "selector": "#free-reward-panel"
+                },
+                {
+                    "title": "喜欢支持",
+                    "selector": ".like"
+                },
+                {
+                    "title": "评论",
+                    "selector": ".new-comment"
+                },
+                {
+                    "title": "评论列表",
+                    "selector": "#normal-comment-list"
+                }
+            ],
+            "author": "solobat",
+            "title": "简书",
+            "version": 1,
+            "disabled": false,
+            "host": "www.jianshu.com",
+            "icon": "https://cdn2.jianshu.io/assets/favicons/favicon-e743bfb1821442341c3ab15bdbe804f7ad97676bd07a770ccc9483473aa76f06.ico",
+            "id": "cd141d76-8953-41a6-a99e-ce30e190d603",
+            "isDefault": false,
+            "navs": ".nav a,.dropdown-menu a",
+            "outlineScope": ".article",
+            "paths": [
+                {
+                    "title": "首页",
+                    "urlPattern": "/"
+                },
+                {
+                    "title": "我的主页",
+                    "urlPattern": "/u/{{uid}}"
+                },
+                {
+                    "title": "我的关注",
+                    "urlPattern": "/users/{{uid}}/following"
+                },
+                {
+                    "title": "我的粉丝",
+                    "urlPattern": "/users/{{uid}}/followers"
+                },
+                {
+                    "title": "我喜欢的文章",
+                    "urlPattern": "/users/{{uid}}/liked_notes"
+                },
+                {
+                    "title": "我关注的",
+                    "urlPattern": "/users/{{uid}}/subscriptions"
+                },
+                {
+                    "title": "关注",
+                    "urlPattern": "/subscriptions#/timeline"
+                },
+                {
+                    "title": "评论",
+                    "urlPattern": "/notifications#/comments"
+                },
+                {
+                    "title": "喜欢和赞",
+                    "urlPattern": "/notifications#/likes"
+                },
+                {
+                    "title": "赞赏和付费",
+                    "urlPattern": "/notifications#/money"
+                },
+                {
+                    "title": "投稿请求",
+                    "urlPattern": "/notifications#/requests"
+                }
+            ],
+            "vars": {
+                "uid": "0ba1ec345f8b"
+            }
         }
     ]
 }
