@@ -81,7 +81,7 @@
         },
         {
             "author": "solobat",
-            "version": 1,
+            "version": 2,
             "host": "github.com",
             "icon": "https://assets-cdn.github.com/favicon.ico",
             "navs": "header ul a",
@@ -118,7 +118,24 @@
             "vars": {
                 "user": "solobat"
             },
-            "title": "Github"
+            "title": "Github",
+            "actions": [
+                {
+                    "title": "Download Zip",
+                    "pattern": "/**/**",
+                    "selector": ".get-repo-btn:nth-child(2)",
+                    "actionType": "click"
+                },
+                {
+                    "title": "Copy Git URL",
+                    "pattern": "/**/**",
+                    "selector": ".input-sm.form-control",
+                    "actionType": "copy",
+                    "extend": {
+                        "prefix": "git clone"
+                    }
+                }
+            ]
         },
         {
             "author": "solobat",
