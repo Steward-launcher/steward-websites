@@ -12,7 +12,7 @@
         },
         {
             "author": "solobat",
-            "version": 2,
+            "version": 3,
             "host": "sspai.com",
             "icon": "https://cdn.sspai.com/sspai/assets/img/favicon/icon.ico",
             "navs": "nav a",
@@ -25,6 +25,20 @@
             "anchors": [
                 { "selector": ".comment-form", "title": "写评论" },
                 { "selector": ".comment-box h3", "title": "评论列表" }
+            ],
+            "actions": [
+                {
+                    "title": "点赞",
+                    "pattern": "/post/*",
+                    "selector": ".btn-like",
+                    "actionType": "click"
+                },
+                {
+                    "title": "收藏",
+                    "pattern": "/post/*",
+                    "selector": ".btn-collect",
+                    "actionType": "click"
+                }
             ]
         },
         {
