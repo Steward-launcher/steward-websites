@@ -139,11 +139,42 @@
         },
         {
             "author": "solobat",
-            "version": 1,
+            "version": 2,
             "host": "www.zhihu.com",
             "icon": "https://static.zhihu.com/static/favicon.ico",
             "navs": "header .AppHeader-inner a",
             "outlineScope": ".markdown-body,.RichContent",
+            "actions":[
+                {
+                  "actionType":"click",
+                  "extend":{
+                    "scope":"visible"
+                  },
+                  "pattern":"/**/**",
+                  "selector":".RichContent-collapsedText",
+                  "title":"收起回答"
+                },
+                {
+                  "actionType":"click",
+                  "extend":{
+                    "scope":"visible"
+                  },
+                  "pattern":"/**/**",
+                  "selector":".CommentsV2-Packup-Button",
+                  "title":"收起评论"
+                },
+                {
+                  "actionType":"hide",
+                  "pattern":"/question/*",
+                  "selector":".QuestionPage .List-item img",
+                  "title":"图片隐藏"
+                },
+                {
+                  "actionType":"show",
+                  "pattern":"/question/*",
+                  "selector":".QuestionPage .List-item img",
+                  "title":"图片显示"
+            }],
             "paths": [
                 { "title": "首页", "urlPattern": "/" },
                 { "title": "退出", "urlPattern": "/logout"},
