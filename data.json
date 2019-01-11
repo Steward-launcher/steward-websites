@@ -153,7 +153,7 @@
         },
         {
             "author": "solobat",
-            "version": 2,
+            "version": 3,
             "host": "www.zhihu.com",
             "icon": "https://static.zhihu.com/static/favicon.ico",
             "navs": "header .AppHeader-inner a",
@@ -162,7 +162,7 @@
                 {
                   "actionType":"click",
                   "extend":{
-                    "scope":"visible"
+                    "scope":"viewport"
                   },
                   "pattern":"/**/**",
                   "selector":".RichContent-collapsedText",
@@ -171,7 +171,7 @@
                 {
                   "actionType":"click",
                   "extend":{
-                    "scope":"visible"
+                    "scope":"viewport"
                   },
                   "pattern":"/**/**",
                   "selector":".CommentsV2-Packup-Button",
