@@ -321,6 +321,53 @@
             "vars": {
                 "uid": "0ba1ec345f8b"
             }
+        },
+        {
+            "actions": [
+                {
+                    "actionType": "englishSyntaxHighlight",
+                    "extend": {
+                        "scope": "viewport"
+                    },
+                    "pattern": "/",
+                    "selector": ".ui_qtext_expanded",
+                    "title": "English syntax highlighting"
+                }
+            ],
+            "anchors": [],
+            "author": "solobat",
+            "disabled": false,
+            "host": "www.quora.com",
+            "icon": "https://qsf.fs.quoracdn.net/-3-images.favicon.ico-26-ae77b637b1e7ed2c.ico",
+            "id": "b6938a7f-62c2-677b-1c85-7fa5506c3f4d",
+            "isDefault": false,
+            "navs": "nav a,.nav a,.header-nav a,.topbar a,#topnav a,.nav-wrapper a,.topnav a",
+            "outlineScope": ".markdown-section,#js_article,.doc-article-inner,.theme-container .page .content",
+            "paths": [],
+            "title": "Quora",
+            "version": 1
+        },
+        {
+            "actions": [
+                {
+                    "actionType": "englishSyntaxHighlight",
+                    "pattern": "/novel/*/*",
+                    "selector": "#chapterContent",
+                    "title": "English syntax highlighting"
+                }
+            ],
+            "anchors": [],
+            "author": "solobat",
+            "disabled": false,
+            "host": "www.wuxiaworld.com",
+            "icon": "https://www.wuxiaworld.com/favicon.ico?v=8j8ePz5dEk",
+            "id": "f9d5aedd-a0c8-e7bf-fc10-cd2e5808a3e6",
+            "isDefault": false,
+            "navs": "nav a,.nav a,.header-nav a,.topbar a,#topnav a,.nav-wrapper a,.topnav a",
+            "outlineScope": ".markdown-section,#js_article,.doc-article-inner,.theme-container .page .content",
+            "paths": [],
+            "title": "wuxiaworld",
+            "version": 1
         }
     ]
 }
