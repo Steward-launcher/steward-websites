@@ -153,12 +153,21 @@
         },
         {
             "author": "solobat",
-            "version": 3,
+            "version": 4,
             "host": "www.zhihu.com",
             "icon": "https://static.zhihu.com/static/favicon.ico",
             "navs": "header .AppHeader-inner a",
             "outlineScope": ".markdown-body,.RichContent",
             "actions":[
+                {
+                    "actionType":"readMode",
+                    "extend":{
+                      "scope":"viewport"
+                    },
+                    "pattern":"/**/**",
+                    "selector":".RichContent",
+                    "title":"阅读模式"
+                },
                 {
                   "actionType":"click",
                   "extend":{
@@ -354,6 +363,12 @@
                     "pattern": "/novel/*/*",
                     "selector": "#chapterContent",
                     "title": "English syntax highlighting"
+                },
+                {
+                    "actionType":"readMode",
+                    "pattern":"/novel/*/*",
+                    "selector":"#chapterContent",
+                    "title":"Read mode"
                 }
             ],
             "anchors": [],
@@ -367,7 +382,7 @@
             "outlineScope": ".markdown-section,#js_article,.doc-article-inner,.theme-container .page .content",
             "paths": [],
             "title": "wuxiaworld",
-            "version": 1
+            "version": 2
         }
     ]
 }
