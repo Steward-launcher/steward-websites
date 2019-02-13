@@ -43,13 +43,24 @@
         },
         {
             "author": "solobat",
-            "version": 1,
+            "version": 2,
             "host": "juejin.im",
             "icon": "https://gold-cdn.xitu.io/favicons/v2/favicon.ico",
             "navs": "nav a",
             "outlineScope": ".article-content",
             "paths": [
                 { "title": "首页", "urlPattern": "/" }
+            ],
+            "actions":[
+                {
+                    "actionType":"readMode",
+                    "extend":{
+                        "scope":"viewport"
+                    },
+                    "pattern":"/post/**",
+                    "selector":".article-content",
+                    "title":"阅读模式"
+                }
             ],
             "title": "掘金"
         },
