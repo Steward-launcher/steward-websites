@@ -382,6 +382,21 @@
         {
             "actions": [
                 {
+                    "actionType":"readMode",
+                    "extend":{
+                      "scope":"viewport",
+                      "subActions":[
+                        {
+                          "actionType":"click",
+                          "lifecycle":"enter",
+                          "selector":".AnswerExpandable"
+                        }]
+                    },
+                    "pattern":"/**",
+                    "selector":".feed_item,.pagedlist_item",
+                    "title":"Read Mode"
+                },
+                {
                     "actionType": "englishSyntaxHighlight",
                     "extend": {
                         "scope": "viewport"
@@ -402,7 +417,7 @@
             "outlineScope": ".markdown-section,#js_article,.doc-article-inner,.theme-container .page .content",
             "paths": [],
             "title": "Quora",
-            "version": 1
+            "version": 2
         },
         {
             "actions": [
