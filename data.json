@@ -163,8 +163,34 @@
             ]
         },
         {
+            "actions":[
+              {
+                "actionType":"readMode",
+                "extend":{
+                  "scope":"viewport"
+                },
+                "pattern":"/article/**",
+                "selector":".article-view",
+                "title":"阅读模式"
+              }],
+            "anchors":[
+            ],
+            "author":"solobat",
+            "disabled":false,
+            "host":"www.jiemian.com",
+            "icon":"https://www.jiemian.com/favicon.ico",
+            "id":"9080aa16-b411-ffd2-63ba-3022f251a1e9",
+            "isDefault":false,
+            "navs":"nav a,.nav a,.header-nav a,.topbar a,#topnav a,.nav-wrapper a,.topnav a",
+            "outlineScope":".markdown-section,#js_article,.doc-article-inner,.theme-container .page .content",
+            "paths":[
+            ],
+            "title":"界面新闻",
+            "version":1
+        },
+        {
             "author": "solobat",
-            "version": 4,
+            "version": 5,
             "host": "www.zhihu.com",
             "icon": "https://static.zhihu.com/static/favicon.ico",
             "navs": "header .AppHeader-inner a",
@@ -173,10 +199,21 @@
                 {
                     "actionType":"readMode",
                     "extend":{
-                      "scope":"viewport"
+                      "scope":"viewport",
+                      "subActions":[
+                        {
+                          "actionType":"click",
+                          "lifecycle":"enter",
+                          "selector":".RichContent-inner"
+                        },
+                        {
+                          "actionType":"click",
+                          "lifecycle":"leave",
+                          "selector":".RichContent-collapsedText"
+                        }]
                     },
                     "pattern":"/**/**",
-                    "selector":".RichContent",
+                    "selector":".AnswerItem.ContentItem,.ContentItem.ArticleItem",
                     "title":"阅读模式"
                 },
                 {
