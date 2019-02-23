@@ -106,9 +106,9 @@
         },
         {
             "author": "solobat",
-            "version": 4,
+            "version": 5,
             "host": "github.com",
-            "icon": "https://assets-cdn.github.com/favicon.ico",
+            "icon": "https://github.githubassets.com/favicon.ico",
             "navs": "header ul a",
             "outlineScope": ".markdown-body,.gollum-markdown-content",
             "paths": [
