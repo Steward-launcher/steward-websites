@@ -446,6 +446,39 @@
             "paths": [],
             "title": "wuxiaworld",
             "version": 2
+        },
+        {
+            "created":1560742552919,
+            "updated":1560742552919,
+            "actions":[
+              {
+                "actionType":"readMode",
+                "extend":{
+                },
+                "pattern":"/**",
+                "selector":"section.article-content",
+                "title":"Read Mode"
+              },
+              {
+                "actionType":"englishSyntaxHighlight",
+                "pattern":"/**",
+                "selector":"section.article-content",
+                "title":"English syntax highlighting"
+              }],
+            "anchors":[
+            ],
+            "author":"solobat",
+            "disabled":false,
+            "host":"www.coindesk.com",
+            "icon":"https://static.coindesk.com/wp-content/uploads/2017/05/cropped-coindesk-new-favicon.png",
+            "id":"300685f2-ddc2-140c-3856-9d16bf6b3ef1",
+            "isDefault":false,
+            "navs":"nav a,.nav a,.header-nav a,.topbar a,#topnav a,.nav-wrapper a,.topnav a",
+            "outlineScope":".markdown-section,#js_article,.doc-article-inner,.theme-container .page .content",
+            "paths":[
+            ],
+            "title":"CoinDesk",
+            "version":1
         }
     ]
 }
