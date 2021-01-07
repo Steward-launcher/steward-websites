@@ -43,8 +43,8 @@
         },
         {
             "author": "solobat",
-            "version": 2,
-            "host": "juejin.im",
+            "version": 3,
+            "host": "juejin.cn",
             "icon": "https://gold-cdn.xitu.io/favicons/v2/favicon.ico",
             "navs": "nav a",
             "outlineScope": ".article-content",
